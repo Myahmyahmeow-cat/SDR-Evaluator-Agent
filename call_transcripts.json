@@ -1,0 +1,2519 @@
+[
+    {
+        "id":  "call_001",
+        "scenario":  {
+                         "rep_tier":  "rookie",
+                         "disposition":  "full_conversation",
+                         "merchant":  {
+                                          "vertical":  "restaurant",
+                                          "sub_vertical":  "casual_dining_italian",
+                                          "years_in_business":  8,
+                                          "capacity_profile":  "clear_off_peak",
+                                          "margin_tier":  "thin",
+                                          "location_count":  1,
+                                          "booking_infrastructure":  "phone_only",
+                                          "marketing_maturity":  "yelp_google_only",
+                                          "daily_deal_history":  "lapsed_dealdrop",
+                                          "metro":  "chicago"
+                                      },
+                         "contact":  {
+                                         "role_who_answers":  "owner",
+                                         "decision_authority":  "final_say",
+                                         "cultural_linguistic_register":  "first_gen_esl",
+                                         "generational_disposition":  "older_established",
+                                         "tech_sophistication":  "low",
+                                         "baseline_disposition":  "skeptical"
+                                     },
+                         "call_state":  {
+                                            "time_of_day_relative_to_merchant":  "mid_lunch_rush",
+                                            "background_reality":  "kitchen_noise_customers",
+                                            "interruption_pattern":  "one_mid_call"
+                                        },
+                         "rep":  {
+                                     "experience_level":  "thirty_days",
+                                     "methodology":  "script_locked",
+                                     "energy_state":  "mid_shift",
+                                     "specific_failure_modes":  [
+                                                                    "cant_read_time_pressure",
+                                                                    "talks_too_much",
+                                                                    "premature_close"
+                                                                ]
+                                 },
+                         "outcome":  {
+                                         "qualification_status_target":  "ambiguous",
+                                         "lead_heat_shift_target":  "maintained",
+                                         "call_duration_band":  "2_to_5min"
+                                     },
+                         "notes":  "Rosa ran a DealDrop ~2 years ago; her husband Marco vetoed running another. Mid-lunch service, kitchen calling for her. Rookie has a script that technically includes discovery questions but he asks them mechanically without responding to her actual answers."
+                     },
+        "transcript":  [
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi, is this — uh, am I speaking with the owner of Trattoria Bella Vita?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yes, this is Rosa. Who is this?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hey Rosa, this is Tyler calling from DealDrop, how\u0027s your day going?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Busy. Lunch is happening. What you need?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Totally, totally, I\u0027ll be quick. So I\u0027m reaching out because I see Trattoria Bella Vita ran a DealDrop campaign — looks like back in 2024 — and I wanted to see if that was something you\u0027d be open to revisiting."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Hold on — [muffled] — Marco, give them the bread, I\u0027m coming. [back to phone] Yeah, we did DealDrop. It wasn\u0027t good for us.",
+                               "stage_direction":  "pause, kitchen noise, voice calling \u0027Rosa, table six!\u0027"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I hear you, I hear you. Can I ask — do you remember what specifically didn\u0027t work? Was it volume, was it the customers themselves, was it —"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "It was everything. People come in, they want everything cheap, they don\u0027t tip the waiter, they don\u0027t come back. We lose money on every plate, you know? My husband say never again."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah, no, that\u0027s really common feedback we get, and that\u0027s actually why I\u0027m calling. So we\u0027ve made a lot of changes to the platform, and one of the things we\u0027re doing now is helping merchants like yourself design offers that bring in the right kind of customer. So — quick question — what does your Tuesday lunch typically look like in terms of covers?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Tuesday lunch? Tuesday is slow. Always slow. Why?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Got it, got it. And on a Tuesday, would you say you\u0027re at like 30%, 50%, what percentage of capacity?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I don\u0027t — I don\u0027t know. Half? Less than half maybe. Listen, I really don\u0027t have time right now —"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Totally, totally, just two more questions. So if I\u0027m hearing you right, Tuesday lunch you\u0027ve got open tables, and your concern with DealDrop last time was around customer quality. Is that fair?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah, but —",
+                               "stage_direction":  "exhales"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Awesome, that\u0027s perfect. So what we\u0027d want to do is talk through how to structure an offer that targets, like, locals who\u0027ll come back versus the deal-hunter crowd. I\u0027d love to set up a quick fifteen-minute call later this week to walk you through some examples. Would Thursday or Friday work better?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I cannot — Tyler? I have to go. Send something to my email maybe.",
+                               "stage_direction":  "voice in background: \u0027Rosa! Telefono!\u0027"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Absolutely, I can do that. What\u0027s the best email?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "It\u0027s on the website. Look on the website. I have to go. Ciao."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Okay, I\u0027ll send something over and follow up — thanks Rosa!"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "[click]"
+                           }
+                       ]
+    },
+    {
+        "id":  "call_002",
+        "scenario":  {
+                         "rep_tier":  "strong",
+                         "disposition":  "qualified_disqualification",
+                         "merchant":  {
+                                          "vertical":  "beauty_spa",
+                                          "sub_vertical":  "luxury_day_spa",
+                                          "years_in_business":  5,
+                                          "capacity_profile":  "always_busy",
+                                          "margin_tier":  "high",
+                                          "location_count":  1,
+                                          "booking_infrastructure":  "modern_pos_booking",
+                                          "marketing_maturity":  "social_savvy",
+                                          "daily_deal_history":  "never_tried",
+                                          "metro":  "nyc"
+                                      },
+                         "contact":  {
+                                         "role_who_answers":  "owner",
+                                         "decision_authority":  "final_say",
+                                         "cultural_linguistic_register":  "cosmopolitan_educated",
+                                         "generational_disposition":  "mid_career",
+                                         "tech_sophistication":  "high",
+                                         "baseline_disposition":  "skeptical"
+                                     },
+                         "call_state":  {
+                                            "time_of_day_relative_to_merchant":  "slow_period",
+                                            "background_reality":  "quiet",
+                                            "interruption_pattern":  "clean"
+                                        },
+                         "rep":  {
+                                     "experience_level":  "two_years_plus",
+                                     "methodology":  "hybrid",
+                                     "energy_state":  "fresh_morning",
+                                     "specific_failure_modes":  [
+
+                                                                ]
+                                 },
+                         "outcome":  {
+                                         "qualification_status_target":  "disqualified",
+                                         "lead_heat_shift_target":  "maintained",
+                                         "call_duration_band":  "5_to_10min"
+                                     },
+                         "notes":  "This card tests whether a strong rep arriving at \u0027this isn\u0027t a fit\u0027 reads as competence on the rubric or as failure-to-close. The right outcome here is a clean qualified DQ with a soft door left open. The rep should NOT push for a meeting once misfit is identified."
+                     },
+        "transcript":  [
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi, this is Sarah with DealDrop. I\u0027m trying to reach Andrea — am I in the right place?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "This is Andrea, yes. Who\u0027s this with again?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Sarah with DealDrop. I know that\u0027s not a name everyone wants to hear cold, so I\u0027ll keep this short — do you have two minutes for me to ask a couple of questions, and I\u0027ll either get out of your hair or have something worth your time?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Okay, that\u0027s a fair pitch. Go ahead.",
+                               "stage_direction":  "small laugh"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Appreciate that. So I was looking at Luminous, and a couple things stood out — your reviews are really strong, your Instagram looks like you\u0027re doing a lot of the work yourself or with someone in-house, and I noticed you\u0027ve never run anything with us. I usually call businesses where I think there might be a fit, but I want to ask you first — what\u0027s your current biggest growth challenge, if you have one?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Honestly? It\u0027s not volume. I could fill more chairs, but the chairs I want to fill are repeat clients at full price. I have a pretty steady base. The challenge is more — keeping the brand premium while also growing."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That\u0027s helpful. Can I ask what your average ticket looks like, roughly? You don\u0027t have to give me an exact number."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Average ticket is probably $220, and the membership program runs higher."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Okay. And what\u0027s a typical Tuesday or Wednesday afternoon look like for you in terms of capacity?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Mid-week afternoons are our slower windows, but I\u0027ve been intentionally not over-booking those because my staff prefers it and frankly the clients who come midweek are some of my best."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Got it. So you\u0027re under-utilizing capacity by design, more or less."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yes, exactly. It\u0027s not a problem I\u0027m trying to solve."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That\u0027s really useful for me to know. I\u0027m going to be straight with you, Andrea — I don\u0027t think DealDrop is the right move for what you\u0027re describing. Our model works best when a business has unsold capacity it actively wants to convert and is comfortable with a customer-acquisition play that involves a discount big enough to attract first-time visits. With a $220 average ticket and a brand position you\u0027re protecting, the math on a DealDrop-scale offer would either not move the needle or move it in a direction you wouldn\u0027t want."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I appreciate you saying that. Most people who call don\u0027t."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah, I get it. Look, if anything changes — like if you opened a second location and needed to seed it, or you launched a new service line that needed traction — that\u0027s a different conversation. But for the core spa as it is right now, I don\u0027t want to waste your time."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Honestly, that makes me more likely to remember DealDrop when something does change. Is there a way to keep in touch without me being on a sales list?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah, I\u0027ll send you a short email — no marketing, just my direct contact, and you reach out if and when. I won\u0027t follow up unless you do."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "That works. Thanks, Sarah."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Thanks for the two minutes, Andrea. Have a good one."
+                           }
+                       ]
+    },
+    {
+        "id":  "call_003",
+        "scenario":  {
+                         "rep_tier":  "competent",
+                         "disposition":  "quick_no",
+                         "merchant":  {
+                                          "vertical":  "fitness",
+                                          "sub_vertical":  "boutique_strength_studio",
+                                          "years_in_business":  4,
+                                          "capacity_profile":  "always_busy",
+                                          "margin_tier":  "medium",
+                                          "location_count":  1,
+                                          "booking_infrastructure":  "modern_pos_booking",
+                                          "marketing_maturity":  "sophisticated_multichannel",
+                                          "daily_deal_history":  "never_tried",
+                                          "metro":  "la"
+                                      },
+                         "contact":  {
+                                         "role_who_answers":  "owner",
+                                         "decision_authority":  "final_say",
+                                         "cultural_linguistic_register":  "native_english",
+                                         "generational_disposition":  "mid_career",
+                                         "tech_sophistication":  "high",
+                                         "baseline_disposition":  "annoyed"
+                                     },
+                         "call_state":  {
+                                            "time_of_day_relative_to_merchant":  "mid_shift",
+                                            "background_reality":  "quiet",
+                                            "interruption_pattern":  "clean"
+                                        },
+                         "rep":  {
+                                     "experience_level":  "six_months",
+                                     "methodology":  "hybrid",
+                                     "energy_state":  "mid_shift",
+                                     "specific_failure_modes":  [
+
+                                                                ]
+                                 },
+                         "outcome":  {
+                                         "qualification_status_target":  "disqualified",
+                                         "lead_heat_shift_target":  "not_applicable",
+                                         "call_duration_band":  "under_30s"
+                                     },
+                         "notes":  "Tests whether the rubric correctly credits a competent rep for accepting a no gracefully rather than penalizing them for the lack of discovery surface area. The merchant has internally decided no — the rep\u0027s job is to not turn that into a steamroller exit."
+                     },
+        "transcript":  [
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi there — is this Marcus?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Speaking."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi Marcus, this is Devon calling from DealDrop. Got a sec?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Honestly, no. We\u0027re not interested in DealDrop. Not now, not later. We\u0027ve talked about it internally and it\u0027s just not a fit for the brand."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah, totally heard. Can I ask one quick thing and then I\u0027ll let you go — was there a specific reason, or just generally not a fit?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Generally not a fit. We do a lot of word-of-mouth and partnership stuff, and the discount model isn\u0027t where we want our positioning."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Got it. Appreciate you being direct about it. I won\u0027t put you on a follow-up list. Have a good one, Marcus."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Thanks. You too."
+                           }
+                       ]
+    },
+    {
+        "id":  "call_004",
+        "scenario":  {
+                         "rep_tier":  "developing",
+                         "disposition":  "full_conversation",
+                         "merchant":  {
+                                          "vertical":  "auto",
+                                          "sub_vertical":  "independent_collision_repair",
+                                          "years_in_business":  22,
+                                          "capacity_profile":  "seasonal",
+                                          "margin_tier":  "medium",
+                                          "location_count":  1,
+                                          "booking_infrastructure":  "paper_book",
+                                          "marketing_maturity":  "yelp_google_only",
+                                          "daily_deal_history":  "never_tried",
+                                          "metro":  "chicago"
+                                      },
+                         "contact":  {
+                                         "role_who_answers":  "owner",
+                                         "decision_authority":  "final_say",
+                                         "cultural_linguistic_register":  "native_english",
+                                         "generational_disposition":  "older_established",
+                                         "tech_sophistication":  "low",
+                                         "baseline_disposition":  "curious"
+                                     },
+                         "call_state":  {
+                                            "time_of_day_relative_to_merchant":  "slow_period",
+                                            "background_reality":  "outdoor_noise",
+                                            "interruption_pattern":  "clean"
+                                        },
+                         "rep":  {
+                                     "experience_level":  "six_months",
+                                     "methodology":  "spin_trained",
+                                     "energy_state":  "mid_shift",
+                                     "specific_failure_modes":  [
+                                                                    "pivots_to_features_early",
+                                                                    "no_discovery_before_pitch"
+                                                                ]
+                                 },
+                         "outcome":  {
+                                         "qualification_status_target":  "ambiguous",
+                                         "lead_heat_shift_target":  "increased",
+                                         "call_duration_band":  "5_to_10_min"
+                                     },
+                         "notes":  "Owner Vince has been running the shop since the late 90s. Doesn\u0027t really understand what DealDrop is for an auto body shop and is genuinely curious rather than skeptical. Rep is decent but jumps into product before figuring out whether collision repair even makes sense for daily deals."
+                     },
+        "transcript":  [
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hey, is this — Vince? Vince at Lakeshore Auto Body?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "This is Vince, yeah. Who am I talking to?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "This is Brandon, I\u0027m with DealDrop. You got a couple minutes?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "DealDrop. The coupon thing.",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah, the coupon thing. Listen, I won\u0027t take much of your time. I work with local businesses on running promotions, getting more customers in the door, and I wanted to talk to you about what we could do for the shop.",
+                               "stage_direction":  "small laugh"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I mean — I\u0027m listening. We don\u0027t really do — we don\u0027t advertise much. People come from referrals mostly. Insurance referrals."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Right, right, that\u0027s super common in your space. So the way DealDrop works is we have a really big audience of local consumers, and we put offers in front of them — discounted services basically — and they buy through us, and then they come redeem at your shop. So for someone like you, we could do something like a discounted detail, or a discounted dent removal, paint touch-up, that kind of thing. We\u0027ve worked with a lot of auto businesses and seen really strong results."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "We don\u0027t really do detail. I mean we\u0027ll do it if a customer asks but it\u0027s not — that\u0027s not the business.",
+                               "stage_direction":  "longer pause"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Okay, okay. So what we could also look at is something on the repair side. Maybe a discount on a deductible, like if we framed it as DealDrop covers part of your insurance deductible —"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "No, no, you can\u0027t do that. That\u0027s — insurance doesn\u0027t work like that. The deductible is between the customer and their carrier. I can\u0027t just discount that off the top, that\u0027s actually a problem."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Got it, got it. Yeah, that makes sense. So what about — like a free estimate offer? Or something to bring in walk-in customers?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Estimates are already free. Everybody\u0027s estimates are free."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Right. Yeah.",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Look, I\u0027ll be honest with you, Brandon. I appreciate the call but I don\u0027t really know what you\u0027d sell here. We\u0027re not — we don\u0027t have stuff to discount. Either someone backs into a pole and they need fixing or they don\u0027t."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah, that\u0027s fair, that\u0027s fair. Can I ask, like — when\u0027s your slow time of year? Maybe there\u0027s a window where —"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Slow is winter, like deep winter. January, February. People put off cosmetic stuff till spring."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Okay, that\u0027s interesting. So in January, February — what if we put together an offer specifically for cosmetic work, you know, hail damage repair or paint correction, something like that, targeted to that window?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I mean — I\u0027d have to think about that. That\u0027s actually — yeah, that\u0027s a slow period. If you could fill some of that.",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Totally. Look, I don\u0027t want to over-promise on a first call. What I\u0027d love to do is set up like a thirty-minute follow-up where I can put together an actual proposal, you can tell me what your margin looks like on that kind of work, and we can see if the numbers make sense. Would next week sometime work?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah, I could do next week. Tuesday or Wednesday afternoon, after lunch."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Wednesday at one?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "One works. You got my cell?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I\u0027ve got the shop number. Let me grab your cell."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "It\u0027s 312, uh — 555-0143."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "312-555-0143, got it. I\u0027ll send a calendar thing to — what\u0027s your email?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Don\u0027t really do email much. Just call me Wednesday at one."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "You got it. Thanks Vince, talk Wednesday."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Alright, take it easy."
+                           }
+                       ]
+    },
+    {
+        "id":  "call_005",
+        "scenario":  {
+                         "rep_tier":  "rookie",
+                         "disposition":  "gatekeeper_block",
+                         "merchant":  {
+                                          "vertical":  "things_to_do",
+                                          "sub_vertical":  "indoor_axe_throwing",
+                                          "years_in_business":  2,
+                                          "capacity_profile":  "weather_dependent",
+                                          "margin_tier":  "high",
+                                          "location_count":  1,
+                                          "booking_infrastructure":  "modern_pos_booking",
+                                          "marketing_maturity":  "social_savvy",
+                                          "daily_deal_history":  "current_dealdrop",
+                                          "metro":  "chicago"
+                                      },
+                         "contact":  {
+                                         "role_who_answers":  "front_desk",
+                                         "decision_authority":  "gatekeeper_only",
+                                         "cultural_linguistic_register":  "native_english",
+                                         "generational_disposition":  "younger_entrepreneurial",
+                                         "tech_sophistication":  "medium",
+                                         "baseline_disposition":  "rushed"
+                                     },
+                         "call_state":  {
+                                            "time_of_day_relative_to_merchant":  "mid_shift",
+                                            "background_reality":  "customer_interactions",
+                                            "interruption_pattern":  "abrupt_hangup_risk"
+                                        },
+                         "rep":  {
+                                     "experience_level":  "thirty_days",
+                                     "methodology":  "script_locked",
+                                     "energy_state":  "end_of_day",
+                                     "specific_failure_modes":  [
+                                                                    "weak_opener",
+                                                                    "cant_handle_silence"
+                                                                ]
+                                 },
+                         "outcome":  {
+                                         "qualification_status_target":  "ambiguous",
+                                         "lead_heat_shift_target":  "not_applicable",
+                                         "call_duration_band":  "30s_to_2min"
+                                     },
+                         "notes":  "Rep doesn\u0027t know they\u0027re already running a DealDrop. Front desk has been trained to filter sales calls but isn\u0027t rude about it. Rep tries the scripted \u0027is the owner available\u0027 angle. This call ends without reaching the owner."
+                     },
+        "transcript":  [
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi, this is Tara calling — am I able to speak with the owner please?"
+                           },
+                           {
+                               "speaker":  "Front Desk",
+                               "text":  "Hey, this is Splinter — uh, Splinter Axe Co. Who\u0027s calling?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "This is Tara from DealDrop, is the owner available?"
+                           },
+                           {
+                               "speaker":  "Front Desk",
+                               "text":  "He\u0027s not in right now. Can I take a message?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Um — sure, yeah. Is there a better time to reach him?",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Front Desk",
+                               "text":  "He\u0027s usually here in the morning, but honestly the best way is email. Can I ask what it\u0027s about?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Sure, yeah, I — I work with local businesses on, you know, promotions and getting customers in the door, and I just wanted to —"
+                           },
+                           {
+                               "speaker":  "Front Desk",
+                               "text":  "Oh, we already run with DealDrop. We have a deal up right now actually."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Oh — oh, okay, you do?"
+                           },
+                           {
+                               "speaker":  "Front Desk",
+                               "text":  "Yeah, we\u0027ve had it for a while. So I\u0027m not sure — are you with DealDrop DealDrop, or — ?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "No, yeah, I\u0027m with DealDrop, I just — sometimes the records, like, on our end, can be a little —"
+                           },
+                           {
+                               "speaker":  "Front Desk",
+                               "text":  "One sec — yeah, 4-2-1-1, sorry — okay. Yeah, you might want to check on your end? Because we definitely have a rep already.",
+                               "stage_direction":  "customer in background: \u0027hey is the bathroom code still 4-2-1-1?\u0027"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Got it, yeah, that makes sense. Sorry about that. Could I — would it be okay if I — ?"
+                           },
+                           {
+                               "speaker":  "Front Desk",
+                               "text":  "Honestly probably just email and we can sort it out. Want me to grab the email?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yes please."
+                           },
+                           {
+                               "speaker":  "Front Desk",
+                               "text":  "It\u0027s hello at splinteraxeco dot com."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hello at splinteraxeco dot com. Got it. Thanks so much, sorry for the —"
+                           },
+                           {
+                               "speaker":  "Front Desk",
+                               "text":  "All good. Bye."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "[click]"
+                           }
+                       ]
+    },
+    {
+        "id":  "call_006",
+        "scenario":  {
+                         "rep_tier":  "competent",
+                         "disposition":  "full_conversation",
+                         "merchant":  {
+                                          "vertical":  "home_services",
+                                          "sub_vertical":  "residential_house_cleaning",
+                                          "years_in_business":  6,
+                                          "capacity_profile":  "clear_off_peak",
+                                          "margin_tier":  "medium",
+                                          "location_count":  1,
+                                          "booking_infrastructure":  "mixed",
+                                          "marketing_maturity":  "yelp_google_only",
+                                          "daily_deal_history":  "burned_by_dealdrop",
+                                          "metro":  "la"
+                                      },
+                         "contact":  {
+                                         "role_who_answers":  "owner",
+                                         "decision_authority":  "final_say",
+                                         "cultural_linguistic_register":  "first_gen_esl",
+                                         "generational_disposition":  "mid_career",
+                                         "tech_sophistication":  "medium",
+                                         "baseline_disposition":  "skeptical"
+                                     },
+                         "call_state":  {
+                                            "time_of_day_relative_to_merchant":  "slow_period",
+                                            "background_reality":  "quiet",
+                                            "interruption_pattern":  "hold_and_return"
+                                        },
+                         "rep":  {
+                                     "experience_level":  "six_months",
+                                     "methodology":  "hybrid",
+                                     "energy_state":  "fresh_morning",
+                                     "specific_failure_modes":  [
+                                                                    "over_promises"
+                                                                ]
+                                 },
+                         "outcome":  {
+                                         "qualification_status_target":  "qualified",
+                                         "lead_heat_shift_target":  "increased",
+                                         "call_duration_band":  "10_to_20_min"
+                                     },
+                         "notes":  "Owner Mariana ran a DealDrop in 2022 that brought in customers who lived outside her service area and demanded the deal price for travel. She has legitimate concerns. The rep handles most of the call well but makes one or two claims about what kinds of customers DealDrop brings in that go beyond what they can actually deliver."
+                     },
+        "transcript":  [
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi, am I speaking with Mariana?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yes, this is Mariana."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi Mariana, this is Jordan from DealDrop. Have I caught you at an okay time?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "DealDrop. Okay. What is this about?",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah, I know that\u0027s not always the most welcome name. I\u0027ll be quick — I\u0027m reaching out to merchants in the cleaning space in the LA area, and I wanted to see if it\u0027d be worth a few minutes of your time to talk about whether running a campaign with us could make sense for Bright Spot. Is now okay or should I call back?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I have ten minutes maybe. But I will tell you upfront, I tried DealDrop before and it was a bad experience."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I appreciate you saying that. Can I ask what happened?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "It was 2022. We were trying to grow. I put up a deal, two-fifty for a deep clean, normally three-eighty. I got — I don\u0027t know, sixty, seventy people who bought it. Which sounds good. But — many of them lived very far. One person was forty-five minutes away in the freeway. They expected me to come for the deal price. My team\u0027s time, gas, everything — I lost money on most of them. And then they don\u0027t book again for the regular price. So I paid DealDrop, paid my team, and the customers, they don\u0027t come back."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That\u0027s a really specific and frustrating set of problems. Can I push on a couple of those? I want to make sure I understand what would actually need to be different this time around for it to be worth it for you."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Sure."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "First thing — when you ran in 2022, were you able to set a service area, like a geographic boundary, at the campaign level? Or was it open to anyone in the LA market?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I don\u0027t remember it being limited. I think anyone could buy it."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Okay. So one of the things we have now — and this would be a big change from 2022 — is we can set a redemption radius from your business address. So if you only want to serve customers within fifteen or twenty minutes, the deal won\u0027t be sold to people outside that radius. That alone would have ruled out the forty-five-minute person."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Okay. That\u0027s better. But still — the customers who buy the deal, they are not the customers who become regulars. They are deal hunters. They go to the next deal next month.",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That\u0027s a real pattern and I won\u0027t pretend otherwise. The honest answer is that some DealDrop customers convert to repeats and some don\u0027t, and the conversion rate depends a lot on the offer design and on what you do at the point of service to encourage rebooking. We see businesses get anywhere from like fifteen percent to forty percent rebooking rates depending on those factors. The ones who get to the higher end are usually doing something specific — like a discount on the next clean if it\u0027s booked within thirty days, handed to the customer in person before the team leaves."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Hm. That\u0027s better than what I had before. What were the percentages last time?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I\u0027d want to pull your old account to give you the real number on that. But I can tell you the average for cleaning specifically tends to come in around thirty percent rebooking when the merchant uses post-service follow-up. That\u0027s strong — it really is — that\u0027s where the value is."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Sorry, I am back.",
+                               "stage_direction":  "pause, then sound of phone being set down, muffled — \u0027One second please, my husband is calling on the other line\u0027 — muffled exchange"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "No problem."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "So thirty percent rebook. And I can limit the radius. What about the discount level — how deep does it have to be?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That\u0027s a real conversation for the proposal stage, but typically for cleaning we see deals in the forty to fifty percent off range work best. I know that sounds steep — the way to think about it is the deal cost is basically your customer acquisition cost. If you get a customer for, say, eighty dollars off a two-fifty service, and they rebook three times at full price, your CAC is well under a hundred dollars on a customer worth twelve hundred over a year."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "That math makes sense to me. But forty, fifty percent — that is a lot. My margin on a deep clean is not — it is not high."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah. That\u0027s the conversation I\u0027d want to have with the actual numbers. What does your cost structure look like on a deep clean, roughly? Labor and supplies?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "For a three-bedroom deep clean, three-eighty is the price. My team takes about four hours, two cleaners. Labor is maybe one-twenty. Supplies, gas, insurance allocation, maybe forty. So I am at one-sixty cost, two-twenty profit before overhead."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Okay. So at a fifty percent off deal, you\u0027d be at one-ninety revenue, thirty dollar margin per first job. That\u0027s tight, and you\u0027d be relying on the rebook to make it work. At forty percent off you\u0027re at two-twenty-eight revenue, sixty-eight dollar margin, plus the rebook. That\u0027s why I\u0027d want to look at whether forty rather than fifty makes sense for your campaign. What was your discount last time?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "It was about thirty-five percent. Two-fifty from three-eighty."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "So actually the discount itself wasn\u0027t the main problem — the radius was, and probably the post-service follow-up. Those are addressable."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yes. Okay. I am — I am more open than I was at the start of this call. What is the next step?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I\u0027d like to put together a campaign proposal with the radius, discount, and follow-up plan written out, and we\u0027d jump on a call so I can walk you through it and you can push back. Twenty, thirty minutes. I\u0027d want to send it the day before so you have time to read. Does Thursday or Friday next week work?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Thursday is better. After two PM."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Thursday at three?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Three is fine."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I\u0027ll send the calendar invite to the email on your website — is that the best one?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yes, info at brightspotclean dot com. That comes to me directly."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Got it. Thanks Mariana — really appreciate you giving me the time given the last experience."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Okay. Thursday three."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Thursday three. Talk then."
+                           }
+                       ]
+    },
+    {
+        "id":  "call_007",
+        "scenario":  {
+                         "rep_tier":  "rookie",
+                         "disposition":  "voicemail",
+                         "merchant":  {
+                                          "vertical":  "beauty_spa",
+                                          "sub_vertical":  "nail_salon",
+                                          "years_in_business":  11,
+                                          "capacity_profile":  "clear_off_peak",
+                                          "margin_tier":  "medium",
+                                          "location_count":  2,
+                                          "booking_infrastructure":  "phone_only",
+                                          "marketing_maturity":  "none",
+                                          "daily_deal_history":  "never_tried",
+                                          "metro":  "nyc"
+                                      },
+                         "contact":  {
+                                         "role_who_answers":  "voicemail",
+                                         "decision_authority":  "final_say",
+                                         "cultural_linguistic_register":  "first_gen_esl",
+                                         "generational_disposition":  "older_established",
+                                         "tech_sophistication":  "low",
+                                         "baseline_disposition":  "receptive"
+                                     },
+                         "call_state":  {
+                                            "time_of_day_relative_to_merchant":  "closing",
+                                            "background_reality":  "quiet",
+                                            "interruption_pattern":  "clean"
+                                        },
+                         "rep":  {
+                                     "experience_level":  "thirty_days",
+                                     "methodology":  "script_locked",
+                                     "energy_state":  "end_of_day",
+                                     "specific_failure_modes":  [
+                                                                    "talks_too_much"
+                                                                ]
+                                 },
+                         "outcome":  {
+                                         "qualification_status_target":  "ambiguous",
+                                         "lead_heat_shift_target":  "not_applicable",
+                                         "call_duration_band":  "30s_to_2min"
+                                     },
+                         "notes":  "Rep leaves a voicemail that runs too long, packs in too much information, and doesn\u0027t leave a clear callback hook. The merchant\u0027s outgoing message is itself a small character moment."
+                     },
+        "transcript":  [
+                           {
+                               "speaker":  "Voicemail",
+                               "text":  "Hello, you have reached Lily Nail Studio. We are open Tuesday through Saturday, ten AM to seven PM, and Sunday eleven to five. We are closed Mondays. Please leave name and number and we will call you back. Thank you, bye bye.",
+                               "stage_direction":  "ringing tone, three rings, then voicemail outgoing message"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi, this message is for the owner of Lily Nail Studio, my name is Connor Hayes calling from DealDrop — DealDrop dot com — and I\u0027m reaching out because I work with local businesses, specifically in the beauty and spa space, on running promotional campaigns to drive new customer acquisition and increase your, uh, your awareness in the local market. DealDrop as you may know is one of the largest local commerce platforms and we have a really substantial audience of consumers in the New York area who are actively looking for nail and beauty services, and I wanted to talk through what a campaign could look like for your business, particularly if there are any slower windows during the week or, you know, capacity that you\u0027d like to fill. We\u0027ve had a lot of success with nail salons in the city and I\u0027d love to set up some time to chat, walk you through what a campaign might look like, what the economics are, all of that. So if you could give me a call back, my number is — let me give you that — it\u0027s 312-555-0287, again 312-555-0287, my name again is Connor Hayes with DealDrop, and I look forward to connecting. Thanks so much, have a great day.",
+                               "stage_direction":  "beep"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "[click]"
+                           }
+                       ]
+    },
+    {
+        "id":  "call_008",
+        "scenario":  {
+                         "rep_tier":  "strong",
+                         "disposition":  "full_conversation",
+                         "merchant":  {
+                                          "vertical":  "fitness",
+                                          "sub_vertical":  "yoga_studio",
+                                          "years_in_business":  9,
+                                          "capacity_profile":  "clear_off_peak",
+                                          "margin_tier":  "medium",
+                                          "location_count":  1,
+                                          "booking_infrastructure":  "modern_pos_booking",
+                                          "marketing_maturity":  "social_savvy",
+                                          "daily_deal_history":  "lapsed_dealdrop",
+                                          "metro":  "nyc"
+                                      },
+                         "contact":  {
+                                         "role_who_answers":  "owner",
+                                         "decision_authority":  "final_say",
+                                         "cultural_linguistic_register":  "native_english",
+                                         "generational_disposition":  "mid_career",
+                                         "tech_sophistication":  "high",
+                                         "baseline_disposition":  "receptive"
+                                     },
+                         "call_state":  {
+                                            "time_of_day_relative_to_merchant":  "slow_period",
+                                            "background_reality":  "quiet",
+                                            "interruption_pattern":  "clean"
+                                        },
+                         "rep":  {
+                                     "experience_level":  "two_years_plus",
+                                     "methodology":  "hybrid",
+                                     "energy_state":  "fresh_morning",
+                                     "specific_failure_modes":  [
+
+                                                                ]
+                                 },
+                         "outcome":  {
+                                         "qualification_status_target":  "qualified",
+                                         "lead_heat_shift_target":  "increased",
+                                         "call_duration_band":  "10_to_20_min"
+                                     },
+                         "notes":  "Owner ran DealDrop in 2021, decent experience but let it lapse because the volume overwhelmed her instructor schedule. She\u0027s open to it again if the rep can address capacity-pacing. The rep is genuinely good and this is closer to a textbook strong call — useful as a positive anchor in the dataset."
+                     },
+        "transcript":  [
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hey, am I speaking with Eleanor?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yes, this is Eleanor."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi Eleanor, this is Maya with DealDrop. I had time blocked to reach out today and I see you\u0027re between classes — is now still okay or should I find a different window?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Now\u0027s actually fine, I have about twenty minutes before my eleven o\u0027clock."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Perfect. So I\u0027ll be upfront — I pulled your account before calling, I see Still Point ran with us in 2021, the campaign performed pretty well actually on raw numbers, and then it just sort of stopped. I wanted to ask you what happened from your side."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah. Honestly, the numbers were the problem. We sold — I want to say six hundred passes? Something like that. And our class capacity is twenty-four mats. We were turning away regular students because DealDrop people were taking the spots. And I had two instructors quit because they were burned out from teaching packed classes of beginners."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That\u0027s a really specific operational consequence and I appreciate you being direct about it. Can I ask — when you sold the six hundred passes, was there a redemption deadline, or were they good indefinitely?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "They were good for, I think, four months? Which sounded reasonable until everyone redeemed in the first six weeks."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Right. So one of the things that\u0027s changed — and I want to be careful not to oversell this, but it\u0027s a real change — we now let merchants set both a redemption window and a daily redemption cap. So you could say, you know, \u0027this voucher is good for six months, and I\u0027ll only honor twenty redemptions per week,\u0027 or per day, whatever pacing makes sense for your studio. That would have prevented the front-loaded crush you experienced."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Okay, that\u0027s actually meaningful. The pacing was the whole problem. Can the cap be set by class type or just overall?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Overall, today. Class-type level pacing isn\u0027t something we\u0027ve built. So if you have a hot vinyasa class that\u0027s already always full and a midday slow flow that\u0027s underbooked, the deal would still let people redeem into the hot vinyasa unless you blocked it at your scheduling system level."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Hm. Well, my scheduling system has class-level enrollment caps anyway, so I could just keep my regular caps and let DealDrop people fill the spots that weren\u0027t filling."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah, that\u0027s exactly the move. You\u0027d basically be using DealDrop to fill your soft spots and your existing system would protect the hard ones."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Okay. What about the burnout problem? My instructors aren\u0027t going to be happy if they hear we\u0027re doing this again."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That\u0027s not really my domain to solve, honestly. What I can tell you is that with pacing controls in place, the instructor-side experience is closer to a slow trickle of new students rather than the flash flood you got last time. Whether that\u0027s enough to address the team\u0027s concern is your judgment call."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Fair enough. I appreciate you not pretending you have an answer for that."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah. Can I ask about your current state — what does utilization look like? You said the eleven o\u0027clock is upcoming, what\u0027s that class typically at?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Eleven AM weekday is usually like sixty, seventy percent. The five-thirty and six-thirty PM classes are at a hundred percent and have a waitlist. Saturday morning is full. Sunday is sleepy."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "So the underutilization is concentrated in midday weekday and Sunday."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yes, exactly."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Okay, that\u0027s actually a nice pattern for this — the people buying DealDrop are disproportionately people with flexible schedules or weekend warriors looking for a deal, so they tend to fill exactly those windows."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "That tracks with what I saw last time too, honestly."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "What\u0027s your current new-student acquisition channel mix?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Mostly Instagram and word of mouth. I do some local partnerships. I haven\u0027t done paid ads in like a year and a half."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Got it. So DealDrop would slot in as the paid acquisition channel, basically."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah, that\u0027s how I\u0027d think about it."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Okay. I think there\u0027s a real conversation here. What I\u0027d want to do is put together a campaign proposal with pacing built in, structured for the midday and Sunday windows specifically, and have you push back on the numbers. I\u0027d want to do that as a thirty-minute call where I share my screen and we go through it together. Could we do that next week?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah, next week works. I prefer mornings. Tuesday or Thursday before noon?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Thursday at ten?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Thursday at ten."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I\u0027ll send the invite to the email on your website. Anything else I should pull or prep before then?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "If you can pull the actual campaign data from 2021, that would be useful. I\u0027d like to see it next to whatever you\u0027re proposing."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I\u0027ll have it ready. Thanks Eleanor, looking forward to Thursday."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Thanks Maya."
+                           }
+                       ]
+    },
+    {
+        "id":  "call_009",
+        "scenario":  {
+                         "rep_tier":  "developing",
+                         "disposition":  "quick_no",
+                         "merchant":  {
+                                          "vertical":  "restaurant",
+                                          "sub_vertical":  "bbq_smokehouse",
+                                          "years_in_business":  14,
+                                          "capacity_profile":  "always_busy",
+                                          "margin_tier":  "thin",
+                                          "location_count":  1,
+                                          "booking_infrastructure":  "phone_only",
+                                          "marketing_maturity":  "yelp_google_only",
+                                          "daily_deal_history":  "burned_by_dealdrop",
+                                          "metro":  "la"
+                                      },
+                         "contact":  {
+                                         "role_who_answers":  "owner",
+                                         "decision_authority":  "final_say",
+                                         "cultural_linguistic_register":  "native_english",
+                                         "generational_disposition":  "older_established",
+                                         "tech_sophistication":  "low",
+                                         "baseline_disposition":  "hostile"
+                                     },
+                         "call_state":  {
+                                            "time_of_day_relative_to_merchant":  "rush",
+                                            "background_reality":  "kitchen_noise_customers",
+                                            "interruption_pattern":  "abrupt_hangup_risk"
+                                        },
+                         "rep":  {
+                                     "experience_level":  "six_months",
+                                     "methodology":  "hybrid",
+                                     "energy_state":  "quota_pressured",
+                                     "specific_failure_modes":  [
+                                                                    "steamrolls_objections"
+                                                                ]
+                                 },
+                         "outcome":  {
+                                         "qualification_status_target":  "disqualified",
+                                         "lead_heat_shift_target":  "decreased",
+                                         "call_duration_band":  "30s_to_2min"
+                                     },
+                         "notes":  "Owner is hostile from word one. Rep tries to push past it instead of accepting the no. Rep is end-of-quarter quota-pressured and reaches. This is genuinely rough — the rough-end of the 70/30 messy split. Rep does not handle this well."
+                     },
+        "transcript":  [
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi, am I speaking with the owner of Hickory Pit?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Who\u0027s calling."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "This is Marcus from DealDrop, I —"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "No."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I\u0027m sorry?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "No. We\u0027re not interested. Take us off your list."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I understand you might have had a — can I just ask if you\u0027ve worked with us before, because —"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yes. We worked with you. It was a disaster. I lost money on every plate for three months. Take us off the list."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I hear that, and I want to acknowledge that, and the platform has changed a lot since —"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I don\u0027t care. I am running a lunch service right now. I have people waiting for ribs. I told you no. What part of that —",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Sir, I\u0027m just trying to —"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Goodbye."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "[click]"
+                           }
+                       ]
+    },
+    {
+        "id":  "call_010",
+        "scenario":  {
+                         "rep_tier":  "developing",
+                         "disposition":  "full_conversation",
+                         "merchant":  {
+                                          "vertical":  "beauty_spa",
+                                          "sub_vertical":  "budget_blowout_bar",
+                                          "years_in_business":  3,
+                                          "capacity_profile":  "clear_off_peak",
+                                          "margin_tier":  "medium",
+                                          "location_count":  1,
+                                          "booking_infrastructure":  "modern_pos_booking",
+                                          "marketing_maturity":  "social_savvy",
+                                          "daily_deal_history":  "never_tried",
+                                          "metro":  "la"
+                                      },
+                         "contact":  {
+                                         "role_who_answers":  "gm",
+                                         "decision_authority":  "influencer",
+                                         "cultural_linguistic_register":  "native_english",
+                                         "generational_disposition":  "younger_entrepreneurial",
+                                         "tech_sophistication":  "high",
+                                         "baseline_disposition":  "curious"
+                                     },
+                         "call_state":  {
+                                            "time_of_day_relative_to_merchant":  "slow_period",
+                                            "background_reality":  "customer_interactions",
+                                            "interruption_pattern":  "one_mid_call"
+                                        },
+                         "rep":  {
+                                     "experience_level":  "six_months",
+                                     "methodology":  "spin_trained",
+                                     "energy_state":  "mid_shift",
+                                     "specific_failure_modes":  [
+                                                                    "feature_dumps",
+                                                                    "premature_close"
+                                                                ]
+                                 },
+                         "outcome":  {
+                                         "qualification_status_target":  "ambiguous",
+                                         "lead_heat_shift_target":  "increased",
+                                         "call_duration_band":  "5_to_10_min"
+                                     },
+                         "notes":  "GM is interested but doesn\u0027t have final say — owner is on vacation. Rep doesn\u0027t catch the authority limit until late, then tries to close anyway. Adversarial-adjacent: tests whether rubric distinguishes \u0027moved the call forward to the right person\u0027 from \u0027secured a meeting.\u0027"
+                     },
+        "transcript":  [
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi, am I speaking with — let me see — is this Polish?"
+                           },
+                           {
+                               "speaker":  "GM",
+                               "text":  "Polish — uh, you mean Polish Blowdry Bar? This is Sam, I\u0027m the GM."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hey Sam, this is Aaron from DealDrop. Got a few minutes?"
+                           },
+                           {
+                               "speaker":  "GM",
+                               "text":  "Yeah, sure. We\u0027re slow right now. What\u0027s up?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Awesome. So I\u0027ve been looking at Polish — I love the branding by the way, the website\u0027s really clean — and I wanted to talk to you about running a DealDrop campaign. Have you guys ever worked with us?"
+                           },
+                           {
+                               "speaker":  "GM",
+                               "text":  "No, never. I think the owner\u0027s looked at it before but never pulled the trigger."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Got it, got it. So just to give you the quick rundown, DealDrop is the largest local commerce platform, we have a really big audience of LA consumers actively shopping for beauty services, and we work with merchants on running offers — discounted services basically — to drive new customer acquisition. For a place like Polish, what we typically see work really well is like a discounted blowout, like maybe a thirty-five-dollar blowout when your normal price is fifty, fifty-five, and that brings in net new customers who can then convert to your membership or rebook at full price."
+                           },
+                           {
+                               "speaker":  "GM",
+                               "text":  "Yeah, that\u0027s interesting. Our normal blowout is forty-five."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Forty-five, okay. So we\u0027d probably want to look at something in the high twenties, like twenty-eight, thirty bucks, with a really clean upsell path. We have campaign tools that let you set redemption windows, you can do rebook offers at the point of service, all that good stuff. We also have a feature now where you can cap daily redemptions which is really popular with salons because it prevents the flash flood thing where everyone redeems at once."
+                           },
+                           {
+                               "speaker":  "GM",
+                               "text":  "That makes sense. We have time slots in our booking system anyway so I don\u0027t think the flood thing would happen but it\u0027s good to know."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Totally, totally. And the other thing I\u0027d mention — we have really good reporting on the back end, so you can see exactly how many redemptions converted to repeat visits, what your customer lifetime value looks like coming through DealDrop, all that."
+                           },
+                           {
+                               "speaker":  "GM",
+                               "text":  "Cool. I mean, this all sounds — yeah, I think we\u0027d be open to looking at it. What do you need from us?",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Awesome. So what I\u0027d love to do is set up a thirty-minute call to walk through a campaign proposal — we\u0027d put together specific offer structures, pricing, the whole thing, and you could give us feedback. Could we do that next week?"
+                           },
+                           {
+                               "speaker":  "GM",
+                               "text":  "I mean — I can do that, but you should know, I don\u0027t actually sign off on stuff like this. The owner Anna would need to be on that call. She\u0027s on vacation right now, she\u0027s back next Wednesday."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Oh, got it. Okay. Could we do it Thursday or Friday next week then?"
+                           },
+                           {
+                               "speaker":  "GM",
+                               "text":  "Probably, yeah. I\u0027d want to check with her first, just to flag it. Can you send me an email with like a one-pager or something I can share with her?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah, I can do better than that — let me go ahead and put a hold on her calendar for Thursday at — let\u0027s say two PM — and I\u0027ll send the proposal in advance so she can review it."
+                           },
+                           {
+                               "speaker":  "GM",
+                               "text":  "I — I don\u0027t have access to her calendar. I\u0027d need to ask her."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Okay, no worries. Let me send you the meeting invite and the proposal, and you can forward both to her."
+                           },
+                           {
+                               "speaker":  "GM",
+                               "text":  "Yeah, that works. I\u0027ll loop her in when she\u0027s back."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Awesome. What\u0027s your email?"
+                           },
+                           {
+                               "speaker":  "GM",
+                               "text":  "It\u0027s sam at polishblow dot co."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Polishblow dot co, got it. And Anna\u0027s?"
+                           },
+                           {
+                               "speaker":  "GM",
+                               "text":  "I don\u0027t want to give out her email without asking. Just send it to me, I\u0027ll forward."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Sounds good. I\u0027ll get that out today and we\u0027ll get something on the books for next week."
+                           },
+                           {
+                               "speaker":  "GM",
+                               "text":  "Cool. Thanks Aaron."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Thanks Sam, talk soon."
+                           }
+                       ]
+    },
+    {
+        "id":  "call_011",
+        "scenario":  {
+                         "rep_tier":  "competent",
+                         "disposition":  "full_conversation",
+                         "merchant":  {
+                                          "vertical":  "things_to_do",
+                                          "sub_vertical":  "escape_room",
+                                          "years_in_business":  5,
+                                          "capacity_profile":  "weather_dependent",
+                                          "margin_tier":  "high",
+                                          "location_count":  1,
+                                          "booking_infrastructure":  "modern_pos_booking",
+                                          "marketing_maturity":  "sophisticated_multichannel",
+                                          "daily_deal_history":  "lapsed_dealdrop",
+                                          "metro":  "chicago"
+                                      },
+                         "contact":  {
+                                         "role_who_answers":  "owner",
+                                         "decision_authority":  "final_say",
+                                         "cultural_linguistic_register":  "native_english",
+                                         "generational_disposition":  "younger_entrepreneurial",
+                                         "tech_sophistication":  "high",
+                                         "baseline_disposition":  "skeptical"
+                                     },
+                         "call_state":  {
+                                            "time_of_day_relative_to_merchant":  "slow_period",
+                                            "background_reality":  "quiet",
+                                            "interruption_pattern":  "clean"
+                                        },
+                         "rep":  {
+                                     "experience_level":  "two_years_plus",
+                                     "methodology":  "hybrid",
+                                     "energy_state":  "mid_shift",
+                                     "specific_failure_modes":  [
+
+                                                                ]
+                                 },
+                         "outcome":  {
+                                         "qualification_status_target":  "disqualified",
+                                         "lead_heat_shift_target":  "maintained",
+                                         "call_duration_band":  "10_to_20_min"
+                                     },
+                         "notes":  "Long call, full discovery, both parties conclude it isn\u0027t a fit. Different from call_002 (which was a fast qualified DQ) — this one works the angles for 15+ minutes before the merchant and rep mutually recognize the math doesn\u0027t work. Tests whether rubric credits depth of inquiry when the answer is still no."
+                     },
+        "transcript":  [
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi, is this Devin?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Speaking."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi Devin, this is Hannah from DealDrop. I see you ran with us back in 2022 — I\u0027m reaching out because I had your account on a follow-up list and wanted to see if it\u0027d make sense to revisit. Got a few minutes?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I have a few minutes, yeah. We did run with you guys, we let it lapse. I\u0027d be willing to talk through it but I\u0027ll tell you upfront I\u0027m pretty skeptical that it\u0027s the right channel for us anymore."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah, totally fair. Do you mind if I ask what\u0027s changed since 2022?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah. So when we ran with you, we were a year and a half in, we had two rooms, we were trying to fill weekday afternoon slots. The DealDrop campaign worked, sort of — we filled the slots. But the customers we got were really price-sensitive, they didn\u0027t tip the GMs, they left mediocre reviews when they didn\u0027t beat the room, and we ended up pulling the plug after about four months. Since then we\u0027ve added two more rooms, we have a really strong corporate channel now, and Friday/Saturday/Sunday we\u0027re booked solid. Weekday afternoon is still soft but it\u0027s more soft than it used to be."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Okay, that\u0027s a really clear picture. Can I ask — what\u0027s your average ticket per booking right now?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "We charge thirty-five per person, and the rooms are six to eight people. So a booking is anywhere from two-ten to two-eighty. Corporate bookings we charge more, more like forty to forty-five per head plus a buyout fee."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Got it. And on a typical Tuesday or Wednesday afternoon, what\u0027s your utilization look like?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Maybe forty percent of the slots fill organically. Sixty percent of them just sit empty."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "So you\u0027ve got real unsold capacity in the windows where DealDrop people would tend to redeem. The question I\u0027d be asking myself in your shoes is whether the unit economics work — whether bringing a deal-priced booking in is better than the empty room, and how the customer-quality issue you described before plays into that."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah, that\u0027s exactly the question. And the answer last time was no. The empty rooms are actually fine — there\u0027s no marginal cost to me, the GMs are on shift anyway because we have to staff for walk-ins, the lights are on. So the alternative isn\u0027t \u0027no revenue\u0027 it\u0027s \u0027no revenue but also no headache.\u0027 The DealDrop customers brought headache."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Right. So the cost side of an empty room is essentially zero, and the cost side of a DealDrop redemption includes the deal margin loss plus the experience tax of dealing with a lower-quality customer."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Exactly."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Can I push on one thing? Has your customer mix changed enough that you\u0027d actually be reaching different people now? Like — were the DealDrop buyers in 2022 specifically a \u0027I want to spend twenty bucks on a Saturday activity\u0027 crowd, or was it more general?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Mostly the former. Younger, often first-time escape room people, often groups of friends rather than couples or work groups. They didn\u0027t really come back. The corporate channel and the date-night/special-occasion crowd, those are repeat business. The DealDrop crowd was one-and-done."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That\u0027s — yeah, that\u0027s a structural problem with the channel for your business. The customers who buy through DealDrop are disproportionately deal hunters by selection. You can soften it with targeting and offer design but you can\u0027t fully fix it."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Right. That\u0027s where I landed last time too."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Let me ask one more — have you considered or tried using us specifically for a new room launch or a new product? Like if you opened a fifth room or launched, I don\u0027t know, a special seasonal experience, sometimes the channel works better as a \u0027drive trial of this specific new thing\u0027 play rather than as ongoing capacity fill."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I have thought about that. We\u0027re actually launching a holiday room in November. It\u0027s a Christmas-themed escape room that we\u0027ll only run for six weeks."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Okay, that\u0027s — that\u0027s actually closer to a fit. Limited-time, specific launch, you\u0027d be using DealDrop as awareness and trial-driver for something with built-in scarcity. The customer-quality concern matters less because the room itself is going away."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Hmm. I — I\u0027d consider that. But I\u0027d want to think about it carefully. Last time burned us enough that I\u0027m not going to jump in."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Totally fair. And I want to be honest — for your core business, ongoing weekly campaigns, I don\u0027t think DealDrop is the right fit and I\u0027m not going to pretend otherwise. The holiday room is a different conversation. Would it be worth a thirty-minute follow-up specifically about that? I could put together what a six-week launch campaign would look like and you could tell me if it makes sense."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah, you know what, sure. The holiday thing is a different question and I\u0027d hear it out. But just for that."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Just for that. Got it. What\u0027s your timing — when do you typically start marketing the holiday room?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "We start teasing it mid-October. So really we\u0027d want to make a decision by the end of September."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Let me come back to you the week of September fifteenth with a proposal specifically for the holiday room. Does that work?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "That works."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I\u0027ll email a confirmation today. Thanks for being honest about the 2022 experience, by the way — that helps me not waste your time on the wrong pitch."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah, no problem. Thanks Hannah."
+                           }
+                       ]
+    },
+    {
+        "id":  "call_012",
+        "scenario":  {
+                         "rep_tier":  "developing",
+                         "disposition":  "full_conversation",
+                         "merchant":  {
+                                          "vertical":  "home_services",
+                                          "sub_vertical":  "handyman_general_contracting",
+                                          "years_in_business":  18,
+                                          "capacity_profile":  "always_busy",
+                                          "margin_tier":  "medium",
+                                          "location_count":  1,
+                                          "booking_infrastructure":  "paper_book",
+                                          "marketing_maturity":  "yelp_google_only",
+                                          "daily_deal_history":  "never_tried",
+                                          "metro":  "chicago"
+                                      },
+                         "contact":  {
+                                         "role_who_answers":  "owner",
+                                         "decision_authority":  "final_say",
+                                         "cultural_linguistic_register":  "native_english",
+                                         "generational_disposition":  "older_established",
+                                         "tech_sophistication":  "low",
+                                         "baseline_disposition":  "receptive"
+                                     },
+                         "call_state":  {
+                                            "time_of_day_relative_to_merchant":  "mid_shift",
+                                            "background_reality":  "outdoor_noise",
+                                            "interruption_pattern":  "hold_and_return"
+                                        },
+                         "rep":  {
+                                     "experience_level":  "thirty_days",
+                                     "methodology":  "script_locked",
+                                     "energy_state":  "fresh_morning",
+                                     "specific_failure_modes":  [
+                                                                    "no_discovery_before_pitch",
+                                                                    "false_certainty"
+                                                                ]
+                                 },
+                         "outcome":  {
+                                         "qualification_status_target":  "ambiguous",
+                                         "lead_heat_shift_target":  "maintained",
+                                         "call_duration_band":  "5_to_10_min"
+                                     },
+                         "notes":  "Adversarial-adjacent: rep is genuinely friendly and likable, the merchant likes him. Rep says yes to a meeting at the end. But there is essentially zero discovery, and the rep makes confident claims about how the deal will work for handyman services that aren\u0027t grounded in anything. Tests whether the rubric distinguishes \u0027warm rapport + booked meeting\u0027 from actual selling competence."
+                     },
+        "transcript":  [
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hello, am I speaking with Bill?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "This is Bill, who\u0027s this?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hey Bill, this is Tommy calling from DealDrop, how you doing today?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Doing alright, doing alright. What can I do for you?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Well Bill, I wanted to talk to you about getting more customers in the door for Bill\u0027s Handyman Service. You ever heard of DealDrop?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I\u0027ve heard of it. My daughter uses it, gets restaurant deals and stuff. I never thought about it for the business though."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah, see, that\u0027s exactly why I\u0027m calling. Most handymen never think about it but it actually works really well for guys like you. We have a huge audience of homeowners in Chicago looking for home services, and what we do is put your services in front of them at a discount — get them to call you the first time — and then you\u0027ve got them as a customer for life because, you know, once someone has a handyman they trust, they keep calling that handyman."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah, that part\u0027s true.",
+                               "stage_direction":  "chuckles"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Right? So what we\u0027d typically do for a handyman is something like, you know, two hours of work for a discounted rate, or like a — like a TV mounting deal or a faucet install, something like that, that gets them in the door, and then once you\u0027re there you can quote them on whatever else they need."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Mm-hmm, mm-hmm. Hold on a sec — Yeah, I\u0027ll be right out — sorry, my guy needs me. What were you saying?",
+                               "stage_direction":  "muffled"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "No problem, no problem. So we\u0027d structure something to get you in the door with new customers, and then the upsell happens naturally on-site."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "That part makes sense. I do that anyway when I\u0027m at a job. Half the time the lady has me fix three things she didn\u0027t tell me about when she called."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Exactly! Exactly. So you already get it. The DealDrop just brings them in."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "How much does it cost? On my end I mean."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "There\u0027s no upfront cost. We take a percentage of each redemption. So the way it works is the customer buys the deal through us, we keep a portion, and you get the rest."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "What\u0027s the portion?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "It varies depending on the campaign and the category but typically it\u0027s around fifty percent."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Fifty percent of the deal price?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah, of the discounted price."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "So if I\u0027m doing a — let\u0027s say I\u0027m doing a hundred-dollar TV mount and the deal is fifty bucks off, that\u0027s a fifty-dollar deal, you take twenty-five and I get twenty-five?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Right, but the way to think about it is the twenty-five is your customer acquisition cost, and once they\u0027re a customer they\u0027re calling you for everything else."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I mean — I\u0027d be losing seventy-five bucks on the first job is what you\u0027re saying."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "You\u0027re investing seventy-five bucks to acquire a customer who\u0027s going to be worth way more than that over time."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah, I see what you\u0027re saying. Look, I\u0027m not saying no, but I\u0027d want to see the numbers written down. I\u0027m not great with the phone for this kind of thing. Can you come by? Or — like a meeting?",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah, absolutely, I can set up a call with one of our campaign specialists who\u0027ll walk through everything in detail. Would early next week work?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah, early next week\u0027s fine."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "How about Tuesday at ten?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Tuesday at ten. I\u0027ll be in between jobs probably, but yeah, give me a call."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Awesome, I\u0027ll get that scheduled. What\u0027s the best email for the calendar invite?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I don\u0027t really do calendar invites. Just call this number."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "You got it Bill. Tuesday at ten, this number."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Sounds good. Take care now."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "You too Bill."
+                           }
+                       ]
+    },
+    {
+        "id":  "call_013",
+        "scenario":  {
+                         "rep_tier":  "competent",
+                         "disposition":  "full_conversation",
+                         "merchant":  {
+                                          "vertical":  "restaurant",
+                                          "sub_vertical":  "ramen_shop",
+                                          "years_in_business":  4,
+                                          "capacity_profile":  "always_busy",
+                                          "margin_tier":  "thin",
+                                          "location_count":  1,
+                                          "booking_infrastructure":  "phone_only",
+                                          "marketing_maturity":  "social_savvy",
+                                          "daily_deal_history":  "never_tried",
+                                          "metro":  "nyc"
+                                      },
+                         "contact":  {
+                                         "role_who_answers":  "spouse",
+                                         "decision_authority":  "blocker",
+                                         "cultural_linguistic_register":  "first_gen_esl",
+                                         "generational_disposition":  "mid_career",
+                                         "tech_sophistication":  "medium",
+                                         "baseline_disposition":  "skeptical"
+                                     },
+                         "call_state":  {
+                                            "time_of_day_relative_to_merchant":  "before_open",
+                                            "background_reality":  "kitchen_noise_customers",
+                                            "interruption_pattern":  "clean"
+                                        },
+                         "rep":  {
+                                     "experience_level":  "six_months",
+                                     "methodology":  "hybrid",
+                                     "energy_state":  "fresh_morning",
+                                     "specific_failure_modes":  [
+
+                                                                ]
+                                 },
+                         "outcome":  {
+                                         "qualification_status_target":  "ambiguous",
+                                         "lead_heat_shift_target":  "maintained",
+                                         "call_duration_band":  "5_to_10_min"
+                                     },
+                         "notes":  "Spouse picks up — partner of the actual owner-chef. Has decision influence but won\u0027t commit without the chef. Already-busy ramen shop doesn\u0027t need volume. Rep does decent discovery, surfaces that this isn\u0027t an obvious fit, but offers a specific framing that might still work (slow Tuesdays, lunch deal not dinner). Mutual \u0027let me think about it / discuss with my husband\u0027 close."
+                     },
+        "transcript":  [
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi, am I speaking with the owner of Tonkotsu House?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "This is — I am Kenji\u0027s wife, Aiko. He is in the kitchen. Can I help you?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi Aiko, this is Diego with DealDrop. I was hoping to talk to whoever handles marketing for the restaurant. Is that you, or would that be Kenji?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "We both. He is the chef, I do the front and the — paperwork, marketing. What is this about please?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Sure. So I\u0027m reaching out because I work with restaurants in the city on running promotional campaigns — basically getting new customers in the door through DealDrop\u0027s audience. I wanted to see if it\u0027d be worth a few minutes to talk about whether something like that could make sense for you. Is now an okay time? I know you\u0027re probably about to open."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "We open at five thirty for dinner. It is — three thirty now, so I have some time. But please — short, because the soup is cooking and I need to check."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Totally. So before I pitch anything, can I ask a couple of questions about the restaurant?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Sure."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "How busy are you typically on a weeknight? Like a Tuesday or Wednesday at seven PM, what does that look like?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Tuesday, Wednesday — usually full. We have forty-two seats. We turn maybe twice for dinner. So eighty, ninety covers on a normal Tuesday."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Wow, okay. So you\u0027re not really running into capacity issues."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "No. Friday, Saturday we have a wait outside. We are very busy."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Got it. Have you ever felt like you needed more customers, or is it more about something else?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Honestly, no. The problem is not customers. The problem is — we are tired. My husband, the kitchen is small, we have two cooks. We do not want more covers, we want — we want the same covers but more — more profit per cover maybe? Or we want to slow Mondays.",
+                               "stage_direction":  "small laugh"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Mondays are slow?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Mondays we are closed actually. Tuesday lunch is slow. Tuesday dinner is okay. Tuesday lunch, maybe twenty covers. We are open eleven thirty to two thirty for lunch."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Okay, so Tuesday lunch specifically is the soft spot."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yes."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That\u0027s actually useful. Most of what DealDrop does well is filling specific underutilized windows. Driving Friday night customers when you already have a wait is the wrong move — that just trades full-price customers for discounted ones. But filling a Tuesday lunch when you\u0027d otherwise be at a third of capacity, that math is different. The customers buying a Tuesday lunch deal aren\u0027t replacing someone who would have paid full price — they\u0027re net new revenue in a slot that was empty."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "That makes sense. But I worry — DealDrop people, I have heard, they expect very cheap. They are not loyal. They come once and go.",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That\u0027s a real pattern and I won\u0027t lie to you about it. The way it can work is if the offer is structured for repeat — like, instead of just a discounted bowl, it\u0027s a \u0027buy a bowl get a second bowl half off, valid Tuesday lunch only,\u0027 or something that brings them back twice. The first visit is the trial, the second visit is where you actually find out if they\u0027re going to become a regular."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Hmm. I would have to talk to my husband. He is — he does not like discounts. He thinks the food should be the price it is.",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That\u0027s a totally legitimate position and I respect it. Can I ask — would you be open to me putting together a one-page proposal specifically for Tuesday lunch, that you could review with him? That way it\u0027s not me trying to convince him on a phone call, it\u0027s something concrete he can look at and react to."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yes, that I can do. Send me something to look at, I will show him, and then I call you back if we want to talk more."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That works. What\u0027s the best email?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Aiko at tonkotsuhouse-nyc dot com."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Got it. I\u0027ll send something over by end of week. And just so I\u0027m clear on what I\u0027m putting together — I\u0027m not trying to sell you anything broader than Tuesday lunch. I think Friday dinner DealDrop would be a mistake for you."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "You are honest, that is good. Okay, send the Tuesday lunch only.",
+                               "stage_direction":  "small laugh"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Tuesday lunch only. Thanks Aiko."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Thank you. I have to check the soup. Bye bye."
+                           }
+                       ]
+    },
+    {
+        "id":  "call_014",
+        "scenario":  {
+                         "rep_tier":  "developing",
+                         "disposition":  "full_conversation",
+                         "merchant":  {
+                                          "vertical":  "things_to_do",
+                                          "sub_vertical":  "indoor_axe_throwing",
+                                          "years_in_business":  2,
+                                          "capacity_profile":  "weather_dependent",
+                                          "margin_tier":  "high",
+                                          "location_count":  1,
+                                          "booking_infrastructure":  "modern_pos_booking",
+                                          "marketing_maturity":  "social_savvy",
+                                          "daily_deal_history":  "current_dealdrop",
+                                          "metro":  "chicago"
+                                      },
+                         "contact":  {
+                                         "role_who_answers":  "owner",
+                                         "decision_authority":  "final_say",
+                                         "cultural_linguistic_register":  "native_english",
+                                         "generational_disposition":  "younger_entrepreneurial",
+                                         "tech_sophistication":  "high",
+                                         "baseline_disposition":  "annoyed"
+                                     },
+                         "call_state":  {
+                                            "time_of_day_relative_to_merchant":  "mid_shift",
+                                            "background_reality":  "customer_interactions",
+                                            "interruption_pattern":  "clean"
+                                        },
+                         "rep":  {
+                                     "experience_level":  "six_months",
+                                     "methodology":  "hybrid",
+                                     "energy_state":  "mid_shift",
+                                     "specific_failure_modes":  [
+                                                                    "no_discovery_before_pitch"
+                                                                ]
+                                 },
+                         "outcome":  {
+                                         "qualification_status_target":  "ambiguous",
+                                         "lead_heat_shift_target":  "decreased",
+                                         "call_duration_band":  "5_to_10_min"
+                                     },
+                         "notes":  "Same merchant as call_005 (Splinter Axe Co). They got past the gatekeeper this time — owner Trevor picks up. He\u0027s already a DealDrop customer, has an existing rep, and is annoyed that this is the second cold call this month from someone at DealDrop who didn\u0027t know that. CRM data quality fail on DealDrop\u0027s end. Rep tries to recover by pitching a campaign upgrade or expansion — partially works, partially doesn\u0027t.",
+                         "related_calls":  [
+                                               "call_005"
+                                           ],
+                         "sequence":  "duplicate_outreach"
+                     },
+        "transcript":  [
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi, am I trying to reach the owner of Splinter Axe Co?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "This is Trevor, I\u0027m the owner. Who\u0027s calling?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi Trevor, this is Priya from DealDrop. Wanted to talk to you about — uh, about a campaign for the business, do you have a couple minutes?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Are you serious?",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I\u0027m sorry?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "We already run with DealDrop. We have for like a year. I have a rep, her name is Lauren. This is the second time someone from DealDrop has called me cold this month and I\u0027m — honestly, I\u0027m pretty annoyed about it."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I — okay, I apologize for that. Let me — let me check on my end —"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I don\u0027t really care about the explanation. The data on your end is bad. I have a rep. Why am I getting cold calls."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That\u0027s a totally fair frustration and I\u0027m sorry. Can I — let me ask a different question. Since I have you on the phone, do you mind if I ask how things are going with the current campaign?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I mean, fine. It\u0027s — it\u0027s fine.",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Just fine?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah, just fine. We get bookings through it, redemption rate\u0027s okay, but honestly Lauren has been telling me for like four months that she wants to talk about expanding into corporate group bookings as a separate campaign and we keep not getting it on the calendar."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Okay. So there\u0027s an expansion conversation that\u0027s been stalled."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Look — I don\u0027t want to step on Lauren\u0027s account, that\u0027s not my place, and I\u0027d be annoyed if someone did that to me. But would it be useful if I flagged this internally so you actually get the corporate conversation booked? Like, I can put a note on your account that there\u0027s an expansion opportunity that\u0027s been pending and ping the team that owns your relationship."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I mean — sure. Yeah. That\u0027d be useful actually. Lauren is good, she\u0027s just busy.",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Got it. Can I ask just a couple of quick things about the corporate angle, just so the note is useful?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "A couple. I\u0027m at the front right now, my host just walked into the back."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Quick. Have you done corporate group bookings before?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah, organic ones. Bachelor parties, team-building stuff, holiday parties especially in Q4. We\u0027re priced higher for those because we customize, we cater food in, we do a private session. It\u0027s a real margin product for us."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "And you\u0027re thinking of a DealDrop campaign that drives more of those specifically?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah. Lauren\u0027s idea was a corporate-targeted offer, basically a \u0027team-building event for ten or more, X dollars off when booked thirty days out\u0027 type thing."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That makes sense. Different audience, different campaign mechanics, different reporting. You\u0027d want it as a separate line item from your current consumer campaign."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Right. That\u0027s what she said."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Okay. I\u0027ll flag this to Lauren today, and I\u0027ll specifically note that the corporate expansion conversation has been waiting on a calendar slot and it sounds like Q4 is the relevant window."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "That\u0027d actually be helpful. Sorry I was short with you."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "No, no. The data quality issue is real and your reaction made sense. I\u0027ll get this flagged. Anything else you want me to pass along?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "No, just — get Lauren on the phone with me, that\u0027s the ask."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I\u0027ll do that. Thanks Trevor."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Thanks Priya."
+                           }
+                       ]
+    },
+    {
+        "id":  "call_015",
+        "scenario":  {
+                         "rep_tier":  "strong",
+                         "disposition":  "full_conversation",
+                         "merchant":  {
+                                          "vertical":  "fitness",
+                                          "sub_vertical":  "yoga_studio",
+                                          "years_in_business":  9,
+                                          "capacity_profile":  "clear_off_peak",
+                                          "margin_tier":  "medium",
+                                          "location_count":  1,
+                                          "booking_infrastructure":  "modern_pos_booking",
+                                          "marketing_maturity":  "social_savvy",
+                                          "daily_deal_history":  "lapsed_dealdrop",
+                                          "metro":  "nyc"
+                                      },
+                         "contact":  {
+                                         "role_who_answers":  "owner",
+                                         "decision_authority":  "final_say",
+                                         "cultural_linguistic_register":  "native_english",
+                                         "generational_disposition":  "mid_career",
+                                         "tech_sophistication":  "high",
+                                         "baseline_disposition":  "skeptical"
+                                     },
+                         "call_state":  {
+                                            "time_of_day_relative_to_merchant":  "slow_period",
+                                            "background_reality":  "quiet",
+                                            "interruption_pattern":  "one_mid_call"
+                                        },
+                         "rep":  {
+                                     "experience_level":  "two_years_plus",
+                                     "methodology":  "hybrid",
+                                     "energy_state":  "fresh_morning",
+                                     "specific_failure_modes":  [
+
+                                                                ]
+                                 },
+                         "outcome":  {
+                                         "qualification_status_target":  "qualified",
+                                         "lead_heat_shift_target":  "maintained",
+                                         "call_duration_band":  "20min_plus"
+                                     },
+                         "notes":  "Follow-up to call_008. This is the Thursday 10 AM proposal call between Maya and Eleanor. Eleanor has slept on it, talked to her instructors (it didn\u0027t go well), and shows up to the call more skeptical than she ended on. Maya has to navigate fresh objections, walk through real numbers, and close on a smaller pilot rather than the full campaign. Long, substantive, multiple thread shifts.",
+                         "related_calls":  [
+                                               "call_008"
+                                           ],
+                         "sequence":  "follow_up"
+                     },
+        "transcript":  [
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hey Eleanor, this is Maya. Can you see my screen okay?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yep, I see it. The proposal doc."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Great. So before I walk through anything — how have you been thinking about this since last week? Any new questions or concerns come up?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah. Honestly, I — I have to be straight with you. I talked to my two senior instructors over the weekend and they\u0027re both pretty against this. One of them was here when we did DealDrop in 2021 and she still remembers the burnout. The other one wasn\u0027t here then but heard the stories.",
+                               "stage_direction":  "exhales"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Okay. That\u0027s important. Did they raise specific concerns or was it more general resistance?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Both. The general thing is — they\u0027re worried I\u0027m signaling that we\u0027re a discount studio, which is a brand thing. The specific thing is the pacing. Even with caps, they\u0027re worried that the people we attract will be — like, they remember teaching classes that were full of beginners who didn\u0027t really know what they were doing, and the regulars felt crowded out."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Both of those are real and I want to take them one at a time. Is that okay?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah, please."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "On the brand thing — what\u0027s your current pricing structure?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Drop-in is twenty-eight, ten-class pack is two-forty, monthly unlimited is two-twenty."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "And what\u0027s your typical DealDrop-style offer in your category in NYC? You see other yoga studios advertising what?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I see a lot of \u0027ten classes for forty-nine dollars\u0027 type things. Which is — yeah, it\u0027s deep discounting and it does signal something."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Right. So one of the things I want to propose, and this is different from how we ran in 2021, is we don\u0027t do a deep-discount intro pack. We do a \u0027first-month unlimited at a discount\u0027 structure — say, one-fifty for a first-month unlimited, instead of two-twenty. That\u0027s a thirty-two percent discount, not a sixty or seventy percent discount, and the framing is \u0027trial month\u0027 rather than \u0027ten cheap classes.\u0027"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "That\u0027s — that\u0027s a more defensible price point."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "It also self-selects for a different customer. Someone who\u0027s willing to pay one-fifty for a month of unlimited yoga is making a more serious commitment than someone who buys a ten-pack for forty-nine. They\u0027re more likely to actually become a regular."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "That tracks. Okay. So that addresses the brand piece, kind of. What about the instructor concern about beginners?",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah. So — can I be honest about a tradeoff here?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Please."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "A first-month-unlimited offer is going to attract people who are deeper into yoga than a ten-pack-for-forty-nine offer would. You\u0027ll get fewer absolute beginners. But you\u0027ll still get some. Some people use the first month to try yoga seriously for the first time. There\u0027s no version of this where the answer is zero beginners."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Right.",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "The question I\u0027d want to ask back is — does your studio have classes that are appropriate for beginners? Like, are there levels?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah, we have basics classes specifically for newer students. They\u0027re at off-peak times — Tuesday and Thursday at noon, Saturday at nine AM."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Okay. So one option here is we structure the deal so it specifically routes new redeemers toward the basics classes for their first two weeks. We can put language in the deal — \u0027first two weeks, basics classes only; weeks three and four, all classes.\u0027 That way the burnout-on-instructors problem in your peak classes is mitigated, your basics classes — which I\u0027m guessing are underutilized — get filled, and people graduate into the full schedule once they have some baseline competence."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "That\u0027s actually — that\u0027s a smart structure. The basics classes are like thirty percent full right now.",
+                               "stage_direction":  "longer pause"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Right. So you\u0027d be using the campaign to fill basics class capacity, which is a soft spot, while protecting your full-tier schedule which is your money-maker and where the instructor strain came from last time."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Okay. I want to push back on one thing though. The 2021 campaign — we had six hundred passes redeem in six weeks. If this campaign hits at anywhere near that volume, even with the basics-class routing, my Tuesday and Thursday noon and my Saturday morning are going to be packed. My senior instructors teach those classes too."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Fair. Two things on that. One is the cap — we\u0027d set a daily redemption cap, and I\u0027d want to set it conservatively, like ten new redemptions per day for the first month, then evaluate. Two is the volume from a one-fifty offer is just structurally lower than a forty-nine-dollar offer. The 2021 campaign sold six hundred passes because it was cheap. This one will sell fewer just because the price point is higher."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "How many fewer, in your experience?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I\u0027d want to be careful not to give you a number I can\u0027t back up. What I can tell you is across studios doing first-month-unlimited at this price range, we typically see total volume that\u0027s somewhere between a quarter and a half of what a deep-discount intro pack would do. So instead of six hundred, you might see one-fifty to three hundred over the campaign. With a cap of ten per day, even the high end would land at a manageable pace."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Okay. One sec — yeah, go ahead, I\u0027ll be out in fifteen — okay, I\u0027m back. Sorry.",
+                               "stage_direction":  "pause, sound of door, voice in background — \u0027Eleanor, do you want me to start the four PM playlist?\u0027"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "No worries."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I want to ask the hard question. What if I do this and it goes badly? What\u0027s my exposure?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Real question. Your exposure is — you\u0027ll have committed to honoring redemptions for the validity period, which I\u0027d recommend setting at four months. So if you launch the campaign and at week three you\u0027re hating it, you can pull the deal from sale, but the passes that were already bought have to be honored. That\u0027s the exposure."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "So if I sell one-fifty in the first three weeks and pull it, I have those one-fifty redemptions to honor over the next three months."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Exactly."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "That\u0027s actually — that\u0027s not as bad as I was imagining."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah. The exposure is bounded by the cap and the validity window. It\u0027s not infinite."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Okay. Look — I\u0027m not going to commit on this call. I want to take this back to my instructors with the basics-class routing structure, the lower volume estimate, and the cap. If they\u0027re still no, I\u0027m going to listen to them. But I think this is more answerable than where we started."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That\u0027s exactly the right way to handle it. Can I ask — what would help your conversation with them?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Honestly, if you can put together a one-page summary of what we just discussed — the offer structure, the cap, the basics-class routing, the volume estimate, the exposure — I\u0027d want to share that, not the full proposal."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I can have that to you tomorrow morning."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "That\u0027s perfect."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "One more thing before we wrap. What\u0027s the realistic timeline if you do decide to move forward? Like, what\u0027s your decision process?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I\u0027d want to make a call within two weeks. If we\u0027re going to launch I\u0027d want it live before Labor Day for a fall push."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Okay. So let\u0027s set a follow-up for two weeks from today, on the assumption that you\u0027ve talked to your team. If you\u0027re a no, you can email me before then and we cancel the call. If you\u0027re a yes, we use that call to finalize."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "That works."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I\u0027ll send the one-pager and the calendar invite today. Thanks for being honest about the instructor pushback — that\u0027s exactly the conversation we needed to have."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yeah. Thanks Maya."
+                           }
+                       ]
+    },
+    {
+        "id":  "call_016",
+        "scenario":  {
+                         "rep_tier":  "competent",
+                         "disposition":  "full_conversation",
+                         "merchant":  {
+                                          "vertical":  "home_services",
+                                          "sub_vertical":  "residential_house_cleaning",
+                                          "years_in_business":  6,
+                                          "capacity_profile":  "clear_off_peak",
+                                          "margin_tier":  "medium",
+                                          "location_count":  1,
+                                          "booking_infrastructure":  "mixed",
+                                          "marketing_maturity":  "yelp_google_only",
+                                          "daily_deal_history":  "burned_by_dealdrop",
+                                          "metro":  "la"
+                                      },
+                         "contact":  {
+                                         "role_who_answers":  "owner",
+                                         "decision_authority":  "final_say",
+                                         "cultural_linguistic_register":  "first_gen_esl",
+                                         "generational_disposition":  "mid_career",
+                                         "tech_sophistication":  "medium",
+                                         "baseline_disposition":  "skeptical"
+                                     },
+                         "call_state":  {
+                                            "time_of_day_relative_to_merchant":  "slow_period",
+                                            "background_reality":  "quiet",
+                                            "interruption_pattern":  "hold_and_return"
+                                        },
+                         "rep":  {
+                                     "experience_level":  "six_months",
+                                     "methodology":  "hybrid",
+                                     "energy_state":  "mid_shift",
+                                     "specific_failure_modes":  [
+                                                                    "over_promises"
+                                                                ]
+                                 },
+                         "outcome":  {
+                                         "qualification_status_target":  "ambiguous",
+                                         "lead_heat_shift_target":  "decreased",
+                                         "call_duration_band":  "20min_plus"
+                                     },
+                         "notes":  "Follow-up to call_006. Thursday 3 PM proposal call between Jordan and Mariana. Mariana has read the proposal, has done her own math, and is pushing back hard on specific numbers. Her husband Carlos is in the room and chimes in. Jordan\u0027s prior over-promise from the first call (\u002730% rebooking is the average for cleaning\u0027) becomes the central tension — Mariana looked it up and is calling him on it. How he handles the caught-out moment is the test.",
+                         "related_calls":  [
+                                               "call_006"
+                                           ],
+                         "sequence":  "follow_up"
+                     },
+        "transcript":  [
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi Mariana, it\u0027s Jordan. Did you get a chance to look at the proposal I sent?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yes, I read it. Carlos read it too — my husband. He is here with me."
+                           },
+                           {
+                               "speaker":  "Spouse",
+                               "text":  "Hello."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Hi Carlos, nice to e-meet you."
+                           },
+                           {
+                               "speaker":  "Spouse",
+                               "text":  "Yes."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "So — we have questions. And some concerns."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That\u0027s exactly what this call is for. Where do you want to start?"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "I want to start with the rebooking number. You told me on the first call that thirty percent is the average for cleaning when the merchant uses post-service follow-up. I looked this up. I called two friends who are also in cleaning, one in Phoenix and one in San Diego, who have run DealDrop. They both said their rebook rate was much lower. Like, ten percent, fifteen percent. And I found a forum online where cleaning business owners were saying the same thing. So where does the thirty percent come from?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Okay. I — I appreciate you doing that homework, and I want to be straight with you. The thirty percent number I gave you was the upper end of what I\u0027ve seen, not the average. I should have been more careful with how I framed that. I\u0027m sorry.",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Mm."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "The honest range, based on what I actually have visibility into, is closer to what your friends said for most merchants. Ten to twenty percent rebooking is more typical. Thirty percent is achievable but it\u0027s the top end and it requires aggressive follow-up — like, point-of-service rebook offers, email sequences, a real customer-experience effort. It\u0027s not the average and I shouldn\u0027t have said it was."
+                           },
+                           {
+                               "speaker":  "Spouse",
+                               "text":  "So why did you say it was the average."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That\u0027s a fair question. Honestly — I was leaning forward into the call, I\u0027d seen some campaigns that hit those numbers, and I generalized from the strong ones. That was wrong of me. I\u0027d rather lose your business by being honest now than win it by misleading you."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Okay. I appreciate that. I am — I am not happy that the first number you gave me was wrong, but I appreciate that you said it instead of trying to defend it.",
+                               "stage_direction":  "long pause"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah. So let me — let me redo the math with the honest number, and you tell me if it still works for you."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yes. Please."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Last call, you told me your three-eighty deep clean has about one-sixty in cost — labor, supplies, gas, insurance. That leaves two-twenty in margin before overhead. At a forty percent off DealDrop deal, you\u0027d be charging two-twenty-eight. After DealDrop\u0027s cut at fifty percent of that, you receive about one-fourteen. Your cost is one-sixty. So you\u0027d be losing forty-six dollars on the first job."
+                           },
+                           {
+                               "speaker":  "Spouse",
+                               "text":  "Yes. That is what I calculated last night."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Right. So the entire economic argument depends on rebooking. At a fifteen percent rebook rate — using the more honest number — for every hundred DealDrop customers, you\u0027d get fifteen who book a second time at full price. The math is: a hundred customers, you lose forty-six on each first job, that\u0027s negative forty-six hundred dollars. Fifteen of them rebook at three-eighty with one-sixty cost, that\u0027s plus thirty-three hundred. Net is roughly negative thirteen hundred over a hundred customers."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "That is what we got too."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah. Even if a third of those fifteen book a third time, you\u0027d be looking at maybe break-even or slight positive. It\u0027s a thin economic case at fifteen percent."
+                           },
+                           {
+                               "speaker":  "Spouse",
+                               "text":  "So the deal is bad for us."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "At forty percent off and a fifteen percent rebook rate, with no other levers pulled, yes. The deal is structurally bad."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Then what — what is the proposal here? You sent me a proposal for a forty percent off campaign."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Let me think about this with you out loud. The proposal I sent assumed a higher rebook rate than is realistic for most merchants. With the honest rate, the deal as structured doesn\u0027t work. So either the deal needs to be structured differently or the rebook rate needs to be higher.",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Spouse",
+                               "text":  "How would the rebook rate be higher."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That\u0027s the question. The honest answer is — there are things you can do at the point of service that move the rebook rate. A handwritten \u0027ten percent off your next clean within thirty days\u0027 card handed to the customer when the team finishes. A follow-up email two days after the clean asking how it went and offering rebook. A specific person on your team whose job is to call within a week. Things like that have moved rebook rates from twelve to twenty in studies I\u0027ve seen. But that\u0027s effort on your side, and there\u0027s no guarantee."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "So you are saying I would have to do extra work to make this deal break even."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Honestly? Yes. With a fifteen percent baseline rebook and a forty percent discount, you would need to invest in customer-experience work to push the rebook rate to twenty or higher to make the campaign positive. That\u0027s the real picture."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Carlos says — and I agree — we cannot do that extra work right now. We are — we are running the business and we have one part-time admin. We do not have time to build a follow-up system.",
+                               "stage_direction":  "says something to Mariana in Spanish, she responds, brief exchange"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "That\u0027s a totally legitimate constraint, and I want to honor it. So given that, I don\u0027t think the campaign as proposed is the right move for you right now."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "You are telling me not to do the deal.",
+                               "stage_direction":  "pause"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "I\u0027m telling you that the deal as I structured it, given your honest rebook rate and your operational capacity, is unlikely to make money. I would not feel good about you running it."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Okay. Jordan — I have to be honest with you. I came into this call ready to argue with you about your numbers, and I was prepared to walk away. I did not expect you to agree with me that the deal does not work.",
+                               "stage_direction":  "longer pause, then to Carlos in Spanish, he responds"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yeah."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "But — I do not want to close the door completely. If we — if we did build that follow-up system, in like six months, would you talk to me again?"
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Yes, absolutely. And honestly, the right play if you do that work would be a smaller campaign first — like a thirty-day pilot, capped at thirty redemptions, just to get real data on your specific rebook rate before we commit to something bigger. I\u0027d rather do that than re-launch the same proposal."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "That makes sense."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Tell you what — let me make a note to follow up with you in five months. By then you\u0027ll know if you\u0027ve been able to build the follow-up system or not. If you have, we talk. If you haven\u0027t, no hard feelings."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Yes. Five months. That works for me."
+                           },
+                           {
+                               "speaker":  "Spouse",
+                               "text":  "Thank you Jordan. We appreciate the honesty."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Thank you both. Mariana, I owe you the apology again — I should have given you the honest number on the first call. I\u0027ll be more careful with that going forward."
+                           },
+                           {
+                               "speaker":  "Merchant",
+                               "text":  "Okay. Thank you. Five months."
+                           },
+                           {
+                               "speaker":  "Rep",
+                               "text":  "Five months. Take care."
+                           }
+                       ]
+    }
+]
